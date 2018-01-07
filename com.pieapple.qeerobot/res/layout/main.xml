@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+    >
+
+
+    
+    
+	<LinearLayout 
+		android:layout_marginLeft="0dp"
+		android:layout_marginTop="0dp"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+    
+	<TabHost 
+		android:id="@android:id/tabhost" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			
+		    
+ 			<!-- 
+			<View android:layout_width="fill_parent" android:layout_height="0.5dip"
+				android:background="#ff0000" />
+			
+			<View android:layout_width="fill_parent" android:layout_height="2dip"
+				android:background="#696996" />
+			<View android:layout_width="fill_parent" android:layout_height="2dip"
+				android:background="#000" />
+			 -->	 
+			<!-- 
+			<FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+			 -->
+			<FrameLayout 
+			    android:id="@android:id/tabcontent" 
+			    android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="0dp"
+			    android:background="#005566" 
+			    />
+			<TabWidget android:id="@android:id/tabs"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginLeft="0dip" android:layout_marginRight="0dip"				
+			/>
+						
+			
+		</LinearLayout>
+	</TabHost>
+
+	</LinearLayout>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			
+	
+	<LinearLayout android:id="@+id/bluetooth_connect_layout"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginTop="0dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/robot1_background"
+	    android:orientation="vertical" >
+		 <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+		     android:orientation="vertical">
+		     <TextView
+		         android:layout_height="50dp"
+		         android:layout_width="match_parent"
+		         android:text=""
+		         />
+		     <ImageView
+		         android:layout_marginLeft="30dp"
+		         android:layout_marginRight="30dp"
+		          android:layout_gravity="center"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:src="@drawable/robot1_top_logo"
+		         />
+		 </LinearLayout>
+		 <FrameLayout 
+		     android:layout_width="match_parent"    
+		     android:layout_height="0dp"
+		     android:layout_weight="1"
+		     android:background="#00000000"
+		     >
+		     <ImageView 
+		     android:contentDescription="Image contentDescription"
+		     android:layout_gravity="bottom"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:src="@drawable/robot1_bottom_shadow"
+		     android:layout_marginBottom="0dp"
+		     android:layout_marginLeft="0dp"
+		     android:adjustViewBounds="true"
+		         
+		         />
+		     <LinearLayout
+		     android:layout_marginLeft="0px"
+		     android:layout_marginTop="0px"
+		     android:layout_gravity="bottom"
+		     android:layout_width="match_parent"
+		     android:layout_height="match_parent"
+		     android:orientation="horizontal"
+		     android:background="#00000000"
+		     >
+		     	 <TextView android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="1"
+		         android:text=" " 
+		         />
+		     
+			 	 <ImageView 
+		 	 	 android:contentDescription="Image contentDescription"
+		     	 android:layout_gravity="bottom"
+		     	 android:layout_width="wrap_content"
+		     	 android:layout_height="wrap_content"
+		     	 android:src="@drawable/robot1_bottom_logo"
+		     	 android:layout_marginBottom="50dp"
+		     	 />
+		 	 
+		     	 <TextView android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="1"
+		         android:text=" " 
+		         />
+		 	</LinearLayout>
+		 	
+		     <LinearLayout
+		     android:layout_marginLeft="0px"
+		     android:layout_marginTop="0px"
+		     android:layout_gravity="bottom"
+		     android:layout_width="match_parent"
+		     android:layout_height="match_parent"
+		     android:orientation="horizontal"
+		     android:background="#00000000"
+		     >
+		     	 <TextView android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="1"
+		         android:text=" " 
+		         />
+		     
+			 	 <Button
+			 	      
+		     	 android:layout_gravity="bottom"
+		     	 android:layout_width="180dp"
+		     	 android:layout_height="120dp"
+		     	 android:text=" "
+		     	 android:layout_marginBottom="10dp"
+		     	 android:background="#00000000"
+		     	 android:id="@+id/bluetooth_btn"
+		     	 />
+		 	 
+		     	 <TextView android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="1"
+		         android:text=" " 
+		         />
+		
+		 	</LinearLayout>
+		 </FrameLayout>
+	</LinearLayout>
+			
+		
+	
+	
+
+
+
+	 <LinearLayout
+	     
+	     android:layout_marginLeft="0dp"
+	     android:layout_marginTop="0dp"
+	     android:visibility="gone"
+	     android:layout_width="fill_parent" 
+	     android:layout_height="wrap_content"
+	     android:orientation="vertical"
+	     >
+	     <Button android:id="@+id/hide_tabhost" 
+	         android:layout_width="wrap_content" android:layout_height="wrap_content"
+	         android:text="Hide TabHost"
+	         />
+	     <Button android:id="@+id/music_picker" 
+	         android:layout_width="wrap_content" android:layout_height="wrap_content"
+	         android:text="Music Picker"
+	         />
+	     			     			     
+	     
+	 </LinearLayout>
+
+			 
+    
+</FrameLayout>

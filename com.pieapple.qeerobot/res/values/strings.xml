@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World</string>
+    <string name="app_name">Qee Robot</string>
+    <string name="title_activity_test_tab">TestTabActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_phone">PhoneActivity</string>
+    <string name="title_activity_media_list">MediaListActivity</string>
+    <string name="title_activity_robot">RobotActivity</string>
+
+</resources>

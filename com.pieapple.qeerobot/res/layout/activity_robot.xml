@@ -1,0 +1,115 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/qee_robot_control_full"
+        >
+        
+    <Button android:id="@+id/left_hand_up_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/robot_arrow_up_selector"
+        />
+    <Button android:id="@+id/left_hand_down_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="342dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/robot_arrow_down_selector"
+        />
+    
+    
+    
+    <Button android:id="@+id/right_hand_up_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="right"
+        android:background="@drawable/robot_arrow_up_selector"
+        />
+    <Button android:id="@+id/right_hand_down_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="342dp"
+        android:layout_marginRight="12dp"
+        android:layout_gravity="right"
+        android:background="@drawable/robot_arrow_down_selector"
+        />
+
+    <Button android:id="@+id/backward_move_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="155dp"
+        android:layout_gravity="bottom"        
+        android:background="@drawable/robot_arrow_up_selector"
+        />
+    
+    <Button android:id="@+id/forward_move_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="155dp"
+        android:layout_gravity="bottom"        
+        android:background="@drawable/robot_arrow_down_selector"
+        />
+    
+    
+    <Button android:id="@+id/turn_left_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="82dp"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="bottom"        
+        android:background="@drawable/robot_arrow_left_selector"
+        />
+
+    <Button android:id="@+id/turn_right_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="82dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="bottom|right"        
+        android:background="@drawable/robot_arrow_right_selector"
+        />
+    
+
+    <Button android:id="@+id/head_left_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="115dp"        
+        android:background="@drawable/robot_arrow_left_selector"
+        />
+
+    <Button android:id="@+id/head_right_btn" 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="112dp"
+        android:layout_gravity="right"        
+        android:background="@drawable/robot_arrow_right_selector"
+        />
+    
+	<Button 
+	    android:id="@+id/back_to_tab_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="#00000000"
+        android:layout_gravity="right|top" 
+        />
+    
+<!-- 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+ -->
+</FrameLayout>

@@ -1,0 +1,143 @@
+
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:id="@+id/activity_phone_framelayout"
+    >
+    <LinearLayout     
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:background="@drawable/dial_full"
+    	>
+    	
+        <TextView android:visibility="gone"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/hello_world" />
+    	<Button android:visibility="gone"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Open Contacts Picker"
+        	android:id="@+id/open_contacts_picker_btn2" />
+	</LinearLayout>
+	
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="83dp"
+	    android:layout_marginLeft="31dp" android:layout_marginTop="29dp"
+	    android:id="@+id/dial_num_1_btn"
+	    android:background="@drawable/dial_num_1_selector"
+	    />
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="83dp"
+	    android:layout_marginLeft="138dp" android:layout_marginTop="29dp"
+	    android:id="@+id/dial_num_2_btn"
+	    android:background="@drawable/dial_num_2_selector"
+	    />		
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="83dp"
+	    android:layout_marginLeft="245dp" android:layout_marginTop="29dp"
+	    android:id="@+id/dial_num_3_btn"
+	    android:background="@drawable/dial_num_3_selector"
+	    />
+		
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="31dp" android:layout_marginTop="124dp"
+	    android:id="@+id/dial_num_4_btn"
+	    android:background="@drawable/dial_num_4_selector"
+	    />
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="138dp" android:layout_marginTop="124dp"
+	    android:id="@+id/dial_num_5_btn"
+	    android:background="@drawable/dial_num_5_selector"
+	    />
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="245dp" android:layout_marginTop="124dp"
+	    android:id="@+id/dial_num_6_btn"
+	    android:background="@drawable/dial_num_6_selector"
+	    />
+				
+
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="31dp" android:layout_marginTop="219dp"
+	    android:id="@+id/dial_num_7_btn"
+	    android:background="@drawable/dial_num_7_selector"
+	    />
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="138dp" android:layout_marginTop="219dp"
+	    android:id="@+id/dial_num_8_btn"
+	    android:background="@drawable/dial_num_8_selector"
+	    />
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="245dp" android:layout_marginTop="219dp"
+	    android:id="@+id/dial_num_9_btn"
+	    android:background="@drawable/dial_num_9_selector"
+	    />
+	
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="31dp" android:layout_marginTop="314dp"
+	    android:id="@+id/dial_num_star_btn"
+	    android:background="@drawable/dial_num_star_selector"
+	    />		
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="138dp" android:layout_marginTop="314dp"
+	    android:id="@+id/dial_num_0_btn"
+	    android:background="@drawable/dial_num_0_selector"
+	    />
+	<Button android:text="" 
+	    android:layout_width="85dp" android:layout_height="84dp"
+	    android:layout_marginLeft="245dp" android:layout_marginTop="314dp"
+	    android:id="@+id/dial_num_sharp_btn"
+	    android:background="@drawable/dial_num_sharp_selector"
+	    />
+
+	<Button android:id="@+id/open_contacts_picker_btn" 
+	    android:layout_width="match_parent" android:layout_height="60dp"
+	    android:layout_gravity="bottom" 
+	    android:layout_marginLeft="0dp" android:layout_marginBottom="0dp"
+	   	android:background="#00000000"
+	    />
+		
+		
+	<Button android:id="@+id/phone_number_text_view" 
+	    android:layout_width="match_parent" android:layout_height="60dp"
+	    android:layout_gravity="bottom" 
+	    android:layout_marginLeft="0dp" android:layout_marginBottom="0dp"
+	   	android:background="#FFFFFFFF"
+	   	android:visibility="invisible"
+	   	android:gravity="center"
+	   	android:textSize="24dp"
+	   	android:text="ABCD"
+	   	android:textColor="#D3D3D3"
+	    />
+	
+	<Button android:id="@+id/dial_call_btn" 
+	    android:layout_width="180dp" android:layout_height="60dp"
+	    android:layout_gravity="bottom" 
+	    android:layout_marginLeft="0dp" android:layout_marginBottom="60dp"
+	   	android:background="@drawable/dial_call_selector"
+	    />
+	
+	<Button android:id="@+id/dial_del_btn" 
+	    android:layout_width="180dp" android:layout_height="60dp"
+	    android:layout_gravity="bottom" 
+	    android:layout_marginLeft="180dp" android:layout_marginBottom="60dp"
+	   	android:background="@drawable/dial_del_selector"
+	    />
+		
+		
+	
+	
+		
+    
+</FrameLayout>

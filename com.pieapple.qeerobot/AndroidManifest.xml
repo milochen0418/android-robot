@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pieapple.qeerobot"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+<!-- package="com.joshclemm.android.tabs"-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    
+    
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+	
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    
+    <application
+        android:icon="@drawable/appicon152x152"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.pieapple.qeerobot.CustomTabActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pieapple.qeerobot.TestTabActivity"
+            android:label="@string/title_activity_test_tab"
+            android:screenOrientation="portrait" 
+            >
+        </activity>
+        <activity
+            android:name="com.pieapple.qeerobot.PhoneActivity"
+            android:label="@string/title_activity_phone"
+            android:screenOrientation="portrait" 
+            >
+        </activity>
+        <activity
+            android:name="com.pieapple.qeerobot.MediaListActivity"
+            android:label="@string/title_activity_media_list"
+            android:screenOrientation="portrait" 
+            >
+        </activity>
+        <activity
+            android:name="com.pieapple.qeerobot.RobotActivity"
+            android:label="@string/title_activity_robot"
+            android:screenOrientation="portrait" 
+            >
+        </activity>
+    </application>
+    <!-- <uses-sdk android:minSdkVersion="4" /> -->
+    <uses-sdk android:minSdkVersion="7" />
+    <!-- <supports-screens largeScreens="true" normalScreens="true" smallScreens="true" /> -->
+
+</manifest>
